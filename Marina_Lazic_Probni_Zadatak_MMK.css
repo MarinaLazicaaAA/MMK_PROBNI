@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* css document */
+
+body {
+    margin: 50px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+	font-size: 16px;
+	padding: 10px;
+	text-align: left;
+}
+
+/* TABLICA 1 */
+
+.tablica1 {
+	width: 700px;
+    border: 4px dashed black;
+    border-radius: 10px;
+    background-color: rgba(173, 216, 230, 0.8); 
+    border-collapse: collapse;
+}
+
+.tablica1 th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+        }
+/*LISTA*/	
+.lista {
+            list-style-type: upper-alpha;
+            padding: 0;
+			margin-left: 20px;
+        }
+.lista li {
+            background-color: rgba(200, 100, 255, 0.7);
+            margin: 4px;
+            padding: 10px;
+            font-weight: bold;
+            font-size: 14px;
+            width: 100px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+.lista li:hover {
+    background-color: rgba(255, 255, 255, 0.6);		
+}
+/*LISTA*/
+
+
+/*PARAGRAF*/
+
+p {
+    font-style: italic; 
+    text-align: justify; 
+    width: 90%; 
+    margin: 0 auto; 
+}
+
+/*PARAGRAF*/
+
+/* TABLICA 2 */
+ .tablica2 {
+            width: 100%;          
+            height: 400px;        
+            border: 2px dashed black;  
+            background-color: white;  
+            border-radius: 200px;      
+            display: table;        
+        }
+
+        
+        .tablica2 td {
+            width: 25%;           
+            height: 100%;         
+            text-align: center;   
+            vertical-align: middle;
+        }
+
+/* TABLICA 2 */
+
+
+/* FORMA */
+
+ form {
+            width: 100%;                          
+            background-color: white;             
+            border: 2px dashed black;            
+            border-radius: 10px;                 
+            padding: 20px;                      
+            box-sizing: border-box;    
+			text-align: left;
+        }
+
+        
+        input, textarea {
+            display: block;                      
+            width: 95%;                                    
+            padding: 10px;      
+			margin:	5px;		
+            font-size: 16px;                     
+            border: 1px solid #ccc;             
+            border-radius: 5px;         
+					
+        }
+		
+		input {
+			background-color: hsla(60, 100%, 80%, 0.9)
+		}
+		
+		input[type="radio"], input[type="checkbox"] {
+            width: 50px;              
+            height: 25px;            
+            margin-left: 80px;        
+        }
+
+
+/* FORMA */
+
+
+
+/* TABLICA 1 */
